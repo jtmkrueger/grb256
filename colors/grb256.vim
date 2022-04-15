@@ -74,8 +74,8 @@ exe 'hi WarningMsg      guifg='.s:lightwhite    .' guibg='.s:darkorange     .' c
 " Message displayed in lower left, such as --INSERT--
 exe 'hi ModeMsg         guifg='.s:black         .' guibg='.s:lightred       .' cterm='.s:bold
 
-exe 'hi CursorLine      guifg='.s:none          .' guibg='.s:darkgray       .' cterm='.s:none
-exe 'hi CursorColumn    guifg='.s:none          .' guibg='.s:none           .' cterm='.s:bold
+exe 'hi CursorLine      guifg='.s:none          .' guibg='.s:none           .' cterm='.s:none
+exe 'hi CursorColumn    guifg='.s:none          .' guibg='.s:none           .' cterm='.s:none
 exe 'hi MatchParen      guifg='.s:lightwhite    .' guibg='.s:lightgray      .' cterm='.s:none
 
 " Omnicompletion (<c-n> and <c-p>)
