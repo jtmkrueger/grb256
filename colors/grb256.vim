@@ -1,6 +1,6 @@
 " grb256 color scheme
 " Based on ir_black <http://blog.infinitered.com/entries/show/8>
-" runtime colors/ir_black.vim
+runtime colors/ir_black.vim
 
 let g:colors_name = "grb256"
 
