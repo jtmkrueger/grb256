@@ -46,6 +46,8 @@ endif
 let colors_name = "grb24bit"
 
 
+hi SignColumn ctermbg=none
+
 " General colors. Forgive me for the way that all of this is formatted.
 exe 'hi Normal          guifg='.s:none          .' guibg='.s:none           .' cterm='.s:none
 exe 'hi NonText         guifg='.s:black         .' guibg='.s:none           .' cterm='.s:none
