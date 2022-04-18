@@ -36,6 +36,11 @@ let s:darkgray = "#202020"
 let s:darkred = "#770000"
 let s:darkorange = "#773c00"
 
+" define pane split characters
+set fillchars=stl:―
+set fillchars+=vert:│
+set fillchars+=stlnc:―
+
 set background=dark
 hi clear
 
@@ -45,8 +50,20 @@ endif
 
 let colors_name = "grb24bit"
 
+" tabs
+hi TabLineFill ctermfg=16 ctermbg=16
+hi TabLine ctermfg=236 ctermbg=232
+hi TabLineSel ctermfg=Blue ctermbg=black
 
+"status line
 hi SignColumn ctermbg=none
+hi StatusLine   ctermfg=darkgray      ctermbg=16  gui=none  term=none      cterm=none
+hi StatusLineNC ctermfg=236           ctermbg=16  gui=none  term=none      cterm=none
+
+" highlight row and column
+highlight CursorLine ctermbg=234 cterm=none
+highlight CursorColumn ctermbg=234
+
 
 " General colors. Forgive me for the way that all of this is formatted.
 exe 'hi Normal          guifg='.s:none          .' guibg='.s:none           .' cterm='.s:none
@@ -55,9 +72,7 @@ exe 'hi NonText         guifg='.s:black         .' guibg='.s:none           .' c
 exe 'hi Cursor          guifg='.s:black         .' guibg='.s:lightwhite     .' cterm='.s:reverse
 exe 'hi LineNr          guifg='.s:lightgray     .' guibg='.s:none           .' cterm='.s:none
 
-exe 'hi VertSplit       guifg='.s:lightgray     .' guibg='.s:lightgray      .' cterm='.s:none
-exe 'hi StatusLine      guifg='.s:black         .' guibg='.s:white          .' cterm='.s:none
-exe 'hi StatusLineNC    guifg='.s:black         .' guibg='.s:lightgray      .' cterm='.s:none  
+exe 'hi VertSplit       guifg='.s:lightgray     .' guibg='.s:none           .' cterm='.s:none
 
 exe 'hi Folded          guifg='.s:none          .' guibg='.s:none           .' cterm='.s:none
 exe 'hi Title           guifg='.s:none          .' guibg='.s:none           .' cterm='.s:none
@@ -76,8 +91,6 @@ exe 'hi WarningMsg      guifg='.s:lightwhite    .' guibg='.s:darkorange     .' c
 " Message displayed in lower left, such as --INSERT--
 exe 'hi ModeMsg         guifg='.s:black         .' guibg='.s:lightred       .' cterm='.s:bold
 
-exe 'hi CursorLine      guifg='.s:none          .' guibg='.s:none           .' cterm='.s:none
-exe 'hi CursorColumn    guifg='.s:none          .' guibg='.s:none           .' cterm='.s:none
 exe 'hi MatchParen      guifg='.s:lightwhite    .' guibg='.s:lightgray      .' cterm='.s:none
 
 " Omnicompletion (<c-n> and <c-p>)
