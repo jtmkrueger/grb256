@@ -61,8 +61,9 @@ hi StatusLine   ctermfg=darkgray      ctermbg=16  gui=none  term=none      cterm
 hi StatusLineNC ctermfg=236           ctermbg=16  gui=none  term=none      cterm=none
 
 " highlight row and column
-highlight CursorLine ctermbg=234 cterm=none
-highlight CursorColumn ctermbg=234
+hi CursorLineNr ctermbg=234 cterm=none
+hi CursorLine ctermbg=234 cterm=none
+hi CursorColumn ctermbg=234
 
 
 " General colors. Forgive me for the way that all of this is formatted.
