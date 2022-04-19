@@ -52,7 +52,7 @@ let colors_name = "grb24bit"
 
 " tabs
 hi TabLineFill ctermfg=16 ctermbg=16
-hi TabLine ctermfg=White ctermbg=232
+hi TabLine ctermfg=Black ctermbg=232 cterm=none
 hi TabLineSel ctermfg=Blue ctermbg=black
 
 "status line
