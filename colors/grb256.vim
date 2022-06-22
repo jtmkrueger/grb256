@@ -85,9 +85,9 @@ exe 'hi WildMenu        guifg='.s:black         .' guibg='.s:lightyellow    .' c
 exe 'hi PmenuSbar       guifg='.s:black         .' guibg='.s:lightwhite     .' cterm='.s:none
 exe 'hi Ignore          guifg='.s:none          .' guibg='.s:none           .' cterm='.s:none
 
-exe 'hi Error           guifg='.s:lightwhite    .' guibg='.s:darkred        .' cterm='.s:none
-exe 'hi ErrorMsg        guifg='.s:lightwhite    .' guibg='.s:darkred        .' cterm='.s:none
-exe 'hi WarningMsg      guifg='.s:lightwhite    .' guibg='.s:darkorange     .' cterm='.s:none
+exe 'hi Error           guifg='.s:black         .' guibg='.s:darkred        .' cterm='.s:none
+exe 'hi ErrorMsg        guifg='.s:black         .' guibg='.s:darkred        .' cterm='.s:none
+exe 'hi WarningMsg      guifg='.s:black         .' guibg='.s:darkorange     .' cterm='.s:none
 
 " Message displayed in lower left, such as --INSERT--
 exe 'hi ModeMsg         guifg='.s:black         .' guibg='.s:lightred       .' cterm='.s:bold
