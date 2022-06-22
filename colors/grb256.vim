@@ -87,7 +87,7 @@ exe 'hi Ignore          guifg='.s:none          .' guibg='.s:none           .' c
 
 exe 'hi Error           guifg='.s:black         .' guibg='.s:red        .' cterm='.s:none
 exe 'hi ErrorMsg        guifg='.s:black         .' guibg='.s:red        .' cterm='.s:none
-exe 'hi WarningMsg      guifg='.s:black         .' guibg='.s:orange     .' cterm='.s:none
+exe 'hi WarningMsg      guifg='.s:black         .' guibg='.s:yellow     .' cterm='.s:none
 
 " Message displayed in lower left, such as --INSERT--
 exe 'hi ModeMsg         guifg='.s:black         .' guibg='.s:lightred       .' cterm='.s:bold
