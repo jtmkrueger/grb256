@@ -122,8 +122,8 @@ exe 'hi Special         guifg='.s:lightwhite    .' guibg='.s:none           .' c
 exe 'hi Delimiter       guifg='.s:lightcyan     .' guibg='.s:none           .' cterm='.s:none
 
 " The spelling highlights are used for errors (e.g. vim-ale uses it).
-exe 'hi SpellBad        guifg='.s:none          .' guibg='.s:lightred        .' cterm='.s:none
-exe 'hi SpellCap        guibg='.s:none          .' guibg='.s:lightred     .' cterm='.s:none
+exe 'hi SpellBad        guifg='.s:none          .' guibg='.s:green        .' cterm='.s:none
+exe 'hi SpellCap        guibg='.s:none          .' guibg='.s:green        .' cterm='.s:none
 
 
 hi link Character       Constant
@@ -143,7 +143,6 @@ hi link Tag             Special
 hi link SpecialChar     Special
 hi link SpecialComment  Special
 hi link Debug           Special
-
 
 " Special for Ruby
 exe 'hi rubyRegexp                  guifg='.s:yellow              .' guibg='.s:none      .' cterm='.s:none
