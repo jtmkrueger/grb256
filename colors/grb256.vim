@@ -122,8 +122,8 @@ exe 'hi Special         guifg='.s:lightwhite    .' guibg='.s:none           .' c
 exe 'hi Delimiter       guifg='.s:lightcyan     .' guibg='.s:none           .' cterm='.s:none
 
 " The spelling highlights are used for errors (e.g. vim-ale uses it).
-exe 'hi SpellBad        guifg='.s:black          .' guibg='.s:darkred        .' cterm='.s:none
-exe 'hi SpellCap        guibg='.s:black          .' guibg='.s:darkorange     .' cterm='.s:none
+exe 'hi SpellBad        guifg='.s:none          .' guibg='.s:lightred        .' cterm='.s:none
+exe 'hi SpellCap        guibg='.s:none          .' guibg='.s:lightred     .' cterm='.s:none
 
 
 hi link Character       Constant
